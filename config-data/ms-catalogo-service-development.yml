@@ -14,8 +14,8 @@ spring:
       ddl-auto: update
     generate-ddl: true
     show-sql: true
-    datasource:
-      driver-class-name: org.postgresql.Driver
-      url: jdbc:postgresql://localhost:5432/ms_catalogo
-      username: postgres
-      password: 123456
+  datasource:  # <--- ¡CORREGIDO! Alineado con 'jpa'
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ms_catalogo
+    username: postgres
+    password: 123456
